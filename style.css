@@ -62,7 +62,7 @@ span{
     padding: 1em 2em;
     border: none;
     border-radius: 16px;
-    color: #959595;
+    color: blue;
     font-size: 12px;
     cursor: pointer;
 }
@@ -196,6 +196,29 @@ span{
     .content-wrap{
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+    .firstname-and-lastname-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 2em;
+        width: 100%;
+        margin-bottom: 1.5em;
+    }
+
+    .firstname{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 0.5em; 
+    }
+    
+    .Lastname{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 0.5em; 
     }
 
     .login-button{
