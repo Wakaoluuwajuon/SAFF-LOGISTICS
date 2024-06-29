@@ -143,6 +143,10 @@ span{
     margin-top: 5em;
 }
 
+.paragraph{
+    text-align: center;
+}
+
 .sign-in-button{
     width: 100%;
 }
@@ -179,6 +183,8 @@ span{
     .content{
         padding: 4em 4em;
     }
+
+    
 
     /* .right-content-wrap{
         width: 100%;
@@ -231,7 +237,7 @@ span{
     }
 
     .content{
-        padding: 0 ;
+        padding: 2em 1.5em;
         align-items: center;
     }
 
@@ -252,6 +258,8 @@ span{
         width: 100%;
         margin-top: 3em;
     }
+
+   
 
 
 }
