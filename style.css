@@ -300,6 +300,9 @@ span{
         width: 100%;
         margin-top: 3em;
     }
-
+    
+    .paragraph-meduim{
+       text-align: center;
+    }
 
 }
